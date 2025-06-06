@@ -1,6 +1,6 @@
 # 🎬 Video Editor
 
-![Video Editor Screenshot](./public/screenshot.png)
+A modern web application for resizing and extracting audios
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@
 
 ### Backend
 - **Node.js**
-- **Express** 
+- **Express.js** 
 - **File-based storage** (JSON database)
 
 ### Tools
@@ -27,13 +27,19 @@
 - Node.js 
 - FFmpeg (for full functionality)
   
-  ```bash
+  ```
   sudo apt-get install ffmpeg
+  ```
 
 - To start project, run:
 
-  ```bash
+  ```
   git clone git@github.com:jamil-babayev/Video-Editor.git
   cd Video-Editor
   npm install
   node src/index.js
+  ```
+### Snapshots
+
+![Video Editor Screenshot](./public/screenshot.png)
+  
